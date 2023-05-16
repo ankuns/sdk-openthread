@@ -367,7 +367,7 @@ exit:
 
 void Instance::FactoryReset(void)
 {
-    Get<Settings>().Wipe();
+    // Get<Settings>().Wipe();
     otPlatReset(this);
 }
 
